@@ -653,6 +653,16 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+footer .col-sm-4 {
+    line-height: 3rem;    
+}
+footer .row1 {
+    display: flex; 
+    justify-content: space-around;  
+}
+.col-sm-12 {
+    margin: auto;
+}
 
 .container {
     max-width: 1000px;
@@ -700,7 +710,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+   max-width: 400px;
     margin: auto auto auto auto;
 }
 
