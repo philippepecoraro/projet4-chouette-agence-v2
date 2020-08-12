@@ -99,10 +99,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -123,7 +119,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -140,7 +135,6 @@ a:hover {
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -222,6 +216,8 @@ a:hover {
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
+.d-bloc a .icon-md,
+.d-bloc .col-sm-4,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
@@ -240,6 +236,8 @@ a:hover {
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-md,
+.d-bloc a:hover .col-sm-4,
+.d-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
@@ -647,11 +645,22 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+a,li {
+    color: rgba(0, 0, 0, .6);   
+}
+a:hover,
+li:hover {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+}
+.col-sm-4 span,
+.col-sm-12 span {
+    color: black;
 }
 footer .col-sm-4 {
     line-height: 3rem;    
@@ -781,16 +790,12 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
-.tc-white {
-    color: #F3976C!important;
+    background-color:#E1C7BA;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #E1C7BA;
+    color: #575757!important;
 }
 
 .btn-atomic-tangerine:hover {
