@@ -889,7 +889,9 @@ h4 {
     }
     .bloc {
         padding-left: -webkit-constant(safe-area-inset-left);
+        padding-left: -moz-constant(safe-area-inset-left);
         padding-right: -webkit-constant(safe-area-inset-right);
+        padding-right: -moz-constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -900,7 +902,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: -webkit-constant(safe-area-inset-left);
+        padding-left: -moz-constant(safe-area-inset-left);
         padding-right: -webkit-constant(safe-area-inset-right);
+        padding-right: -moz-constant(safe-area-inset-right);
     }
 }
 
