@@ -742,7 +742,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+   color: #333333!important;
 }
 
 h4 {
@@ -791,6 +791,12 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color:#E1C7BA;
+}
+h1 span, h2 span {
+    background:#E1C7BA;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 3px #000000;
 }
 
 .btn-atomic-tangerine {
